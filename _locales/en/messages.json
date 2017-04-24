@@ -1,0 +1,14 @@
+{
+	"prompt_for_caps": {
+		"message": "Convert '%s' to uppercase",
+		"desription": "Convert the highlighted text to all caps."
+	},
+	"prompt_for_lowercase": {
+		"message": "Convert '%s' to lowercase",
+		"desription": "Convert the highlighted text to lowercase."
+	},
+	"prompt_for_autocaps": {
+		"message": "Auto capitalize '%s'",
+		"desription": "Attempts to automatically capitalize the highlighted text."
+	}
+}
