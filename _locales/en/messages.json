@@ -1,14 +1,18 @@
 {
-	"prompt_for_caps": {
-		"message": "Convert '%s' to uppercase",
-		"desription": "Convert the highlighted text to all caps."
-	},
-	"prompt_for_lowercase": {
-		"message": "Convert '%s' to lowercase",
-		"desription": "Convert the highlighted text to lowercase."
-	},
-	"prompt_for_autocaps": {
-		"message": "Auto capitalize '%s'",
-		"desription": "Attempts to automatically capitalize the highlighted text."
-	}
+  "prompt_for_caps": {
+    "message": "Convert \"%s\" to uppercase",
+    "description": "Context menu message to convert the highlighted text to all caps."
+  },
+  "prompt_for_lowercase": {
+    "message": "Convert \"%s\" to lowercase",
+    "description": "Context menu message to convert the highlighted text to lowercase."
+  },
+  "prompt_for_sentence_case": {
+    "message": "Convert \"%s\" to sentence case",
+    "description": "Context menu message to capitalize the highlighted text according to sentence rules."
+  },
+  "prompt_for_title_case": {
+    "message": "Convert \"%s\" to title case",
+    "description": "Context menu message to capitalize the highlighted text according to title rules."
+  }
 }

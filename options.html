@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Right Click Caps Options</title>
+    <style>
+        body: {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Right Click Caps</h1>
+<p>Right Click Caps provides options to capitalize, lowercase, or attempt to intelligently capitalize selected text
+    in any editable text window.</p>
+<p>Right Click Caps was written by Doug Mawrey in 2017.</p>
+<p>The Right Click Caps source code is available on
+    <a href="http://github.com/dmawrey/rightclickcaps" target="_blank">GitHub</a>.</p>
+
+<h2>Options</h2>
+<form id="options">
+    <div><input type="checkbox" name="selectContent" id="selectContent" checked><label for="selectContent">Keep
+        selection after correcting capitals.</label></div>
+</form>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>

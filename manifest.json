@@ -1,35 +1,35 @@
 {
-	"manifest_version": 2,
-  
-	"name": "Right Click Caps",
-	"description": "Provides tools to manipulate text in the context menu.",
-	"version": "1.0",
-  
-	"permissions": [
-		"contextMenus"
-	],
-	
-	"background": {
-		"scripts": [
-			"background.js"
-		]
-	},
-	"content_scripts": [
-		{
-			"matches": [
-				"<all_urls>"
-			],
-			"js": [
-				"rightClickCaps.js"
-			]
-		}
-	],
-	
-    "icons": {
-        "16": "icon-bitty.png",
-        "48": "icon-small.png",
-        "128": "icon-large.png"
-    },
-	
-	"default_locale": "en"
+  "manifest_version": 2,
+  "name": "Right Click Caps",
+  "description": "Provides tools to manipulate text in the context menu.",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "rightClickCaps.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon-bitty.png",
+    "48": "icon-small.png",
+    "128": "icon-large.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "default_locale": "en"
 }
